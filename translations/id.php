@@ -35,7 +35,7 @@ $_MODULE['<{bankbni}prestashop>payment_execution_b1d27cc7424d2c5f083ac3d1666771f
 $_MODULE['<{bankbni}prestashop>payment_execution_edd87c9059d88fea45c0bd6384ce92b9'] = 'Konfirmasi pembelian Anda dengan klik pada tombol \"Konfirmasi pembelian\".';
 $_MODULE['<{bankbni}prestashop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = 'Konfirmasi pembelian';
 $_MODULE['<{bankbni}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = 'Cara pembayaran lainnya';
-$_MODULE['<{bankbni}prestashop>infos_c2a70d2874409cb4ce8408448b9eb5f2'] = 'Modul untuk menerima penbayaran melalui Bank BNI.';
+$_MODULE['<{bankbni}prestashop>infos_c2a70d2874409cb4ce8408448b9eb5f2'] = 'Modul untuk menerima pembayaranran melalui Bank BNI.';
 $_MODULE['<{bankbni}prestashop>infos_2eb1fa960f9fac5ce0999837badf28f4'] = 'Jika pelanggan memilih membayar menggunakan Bank BNI, status pembelian akan berubah menjadi \'Menunggu pembayaran via Bank BNI\'';
 $_MODULE['<{bankbni}prestashop>infos_c178c24118504992b790be3711984c45'] = 'Dan jika pembayaran telah diterima, konfirmasi pembayaran harus dilakukan secara manual.';
 $_MODULE['<{bankbni}prestashop>payment_54b845beb4842d74393bee7de93d5adb'] = 'Bayar melalui Bank BNI';
