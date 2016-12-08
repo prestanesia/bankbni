@@ -23,9 +23,14 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-<div class="alert alert-info">
-<img src="../modules/bankbni/logo.png" style="float:left; margin-right:15px;" height="60">
-<p><strong>{l s="This module allows you to accept secure payments by Bank BNI." d='Modules.BankBNI.Admin'}</strong></p>
-<p>{l s="If the client chooses to pay by Bank BNI, the order's status will change to 'Waiting for Payment.'" d='Modules.BankBNI.Admin'}</p>
-<p>{l s="That said, you must manually confirm the order upon receiving the Bank BNI." d='Modules.BankBNI.Admin'}</p>
-</div>
+
+<dl>
+    <dt>{l s='Amount' mod='bankbni'}</dt>
+    <dd>{$total}</dd>
+    <dt>{l s='Name of account owner' mod='bankbni'}</dt>
+    <dd>{$bankbniOwner}</dd>
+    <dt>{l s='Please include these details' mod='bankbni'}</dt>
+    <dd>{$bankbniDetails}</dd>
+    <dt>{l s='Bank name' mod='bankbni'}</dt>
+    <dd>{$bankbniAddress nofilter}</dd>
+</dl>

@@ -23,9 +23,9 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-<p class="payment_module_bni">
-	<a class="bankbni" href="{$link->getModuleLink('bankbni', 'payment')|escape:'html'}" title="{l s='Pay by Bank BNI' mod='bankbni'}">
-		<img src="{$this_path_bw}bankwire.jpg" alt="{l s='Pay by Bank BNI' mod='bankbni'}" />
-		{l s='Pay by Bank BNI' mod='bankbni'}
+<p class="payment_module">
+	<a href="{$link->getModuleLink('bankbni', 'payment')|escape:'html'}" title="{l s='Pay by Bank BNI' d='Modules.BankBNI.Shop'}">
+		<img src="{$this_path_bw}logo.png" alt="{l s='Pay by Bank BNI' d='Modules.BankBNI.Shop'}"/>
+		{l s='Pay by Bank BNI' d='Modules.BankBNI.Shop'}&nbsp;<span>{l s='(order processing will be longer)' d='Modules.BankBNI.Shop'}</span>
 	</a>
 </p>
