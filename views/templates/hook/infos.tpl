@@ -26,6 +26,6 @@
 <div class="alert alert-info">
 <img src="../modules/bankbni/logo.png" style="float:left; margin-right:15px;" height="60">
 <p><strong>{l s="This module allows you to accept secure payments by Bank BNI." d='Modules.BankBNI.Admin'}</strong></p>
-<p>{l s="If the client chooses to pay by Bank BNI, the order's status will change to 'Waiting for Payment.'" d='Modules.BankBNI.Admin'}</p>
+<p>{l s="If the client chooses to pay by Bank BNI, the order's status will change to 'Awaiting Bank BNI Payment.'" d='Modules.BankBNI.Admin'}</p>
 <p>{l s="That said, you must manually confirm the order upon receiving the Bank BNI." d='Modules.BankBNI.Admin'}</p>
 </div>
